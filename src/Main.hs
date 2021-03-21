@@ -26,15 +26,15 @@ main = do
   BS.putStrLn "The current Bitcoin rate:"
 
   case getRateIn "USD" json of
-    Nothing   -> TIO.putStrLn "   Could not find the Bitcoin rate in USD :("
+    Nothing   -> TIO.putStrLn "   Could not find the Bitcoin rate in USD"
     Just rate -> TIO.putStrLn $ "   " <> rate <> " USD"
 
   case getRateIn "GBP" json of
-    Nothing   -> TIO.putStrLn "   Could not find the Bitcoin rate in GBP :("
+    Nothing   -> TIO.putStrLn "   Could not find the Bitcoin rate in GBP"
     Just rate -> TIO.putStrLn $ "   " <> rate <> " GBP"
   
   case getRateIn "EUR" json of
-    Nothing   -> TIO.putStrLn "   Could not find the Bitcoin rate in EUR :("
+    Nothing   -> TIO.putStrLn "   Could not find the Bitcoin rate in EUR"
     Just rate -> TIO.putStrLn $ "   " <> rate <> " EUR"
 
   
