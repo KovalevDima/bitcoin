@@ -13,7 +13,7 @@ homepage:       https://github.com/KovalevDima/bitcoin#readme
 author:         Kovalev Dmitry
 maintainer:     onarainydayillwinanyway@gmail.com
 copyright:      2021 Kovalev Dmitry
-license:        GPL-3
+license:        MIT
 license-file:   LICENSE
 build-type:     Simple
 extra-source-files:
